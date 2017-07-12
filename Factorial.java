@@ -1,21 +1,12 @@
-package problems;
-
-import java.util.Scanner;
+package guvi;
 
 public class Factorial {
-	public static void main(String args[])
-    {
-        int num, i, fact=1;
-        Scanner scan = new Scanner(System.in);
-		
-        System.out.print("Enter a Number : ");
-        num = scan.nextInt();
-		
-        for(i=num; i>0; i--)
-        {
-            fact = fact*i;
-        }
-		
-        System.out.print("Factorial of " + num + " is " + fact);
-    }
+	 public static void main(String args[]){  
+		  int i,fact=1;  
+		  int number=5;
+		  for(i=1;i<=number;i++){    
+		      fact=fact*i;    
+		  }    
+		  System.out.println("Factorial of "+number+" is: "+fact);    
+		 }  
 }
